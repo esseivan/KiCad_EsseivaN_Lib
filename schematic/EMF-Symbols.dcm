@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC138
+D 3 to 8 Decoder
+$ENDCMP
+#
+$CMP DS-EADIPS082
+D Afficheur LCD 8x2 caractères
+K LCD 8x2 Alphanum
+$ENDCMP
+#
+$CMP DS-EADIPS162
+D Afficheur LCD 16x2 caractères
+K LCD 16x2 Alphanum
+$ENDCMP
+#
+#End Doc Library

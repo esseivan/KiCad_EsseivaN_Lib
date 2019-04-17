@@ -1,0 +1,146 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X01
+D Connector, single row, 01x06
+K connector
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector, single row, 01x02
+K connector
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x06
+K connector
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x06
+K connector
+$ENDCMP
+#
+$CMP CONN_01X05
+D Connector, single row, 01x06
+K connector
+$ENDCMP
+#
+$CMP CONN_01X06
+D Connector, single row, 01x06
+K connector
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector, single row, 01x08
+K connector
+$ENDCMP
+#
+$CMP Connecteur_02X04
+D Connector, 02x04
+K connector
+F TE-Connectivity-7-188275-8
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP DSC6003JI2A
+F https://www.digikey.ch/product-detail/en/microchip-technology/DSC6003JI2A-012.0000T/DSC6003JI2A-012.0000TCT-ND/8042515
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND_ALIM
+K POWER, PWR
+$ENDCMP
+#
+$CMP GROUND
+K POWER, PWR
+$ENDCMP
+#
+$CMP Ground
+K POWER, PWR
+$ENDCMP
+#
+$CMP MCP2210
+D USB Bridge, USB to SPI USB 2.0 SPI Interface 20-SSOP
+K usb bridge spi
+F https://www.digikey.ch/product-detail/en/microchip-technology/MCP2210-I-SS/MCP2210-I-SS-ND/2835087
+$ENDCMP
+#
+$CMP MCP6001R
+D Op Amp in 5-pin package
+K op amp amplifier operational
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP PIC18F26K40T
+D PIC PIC® XLP™ 18K Microcontroller IC 8-Bit 64MHz 64KB (32K x 16) FLASH 28-SSOP
+F https://www.digikey.ch/product-detail/en/microchip-technology/PIC18F26K40T-I-SS/PIC18F26K40T-I-SSCT-ND/7563890
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_PHOTO
+D Photoresistor, light sensitive resistor, LDR
+K resistor variable light opto LDR
+$ENDCMP
+#
+$CMP SW_DIP_x04
+D 4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP Solar_Cells
+D multiple solar cells
+K solar cell
+F ~
+$ENDCMP
+#
+$CMP TEST_2P
+D point
+K point tp
+$ENDCMP
+#
+$CMP TTL-232R-3V3-2MM
+D Connector, single row, 01x07
+K connector
+$ENDCMP
+#
+$CMP Trimmer
+D variable Resistor (Rheostat)
+K r res resistor variable potentiometer
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

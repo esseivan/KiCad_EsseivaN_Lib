@@ -1,0 +1,437 @@
+EESchema-DOCLIB  Version 2.0  Date: 21/05/2014 21:17:12
+#
+$CMP 74HC138
+D Decodeur 3 vers 8 (active low outputs)
+K HC DECOD DECOD8
+$ENDCMP
+#
+$CMP 74HC244
+D Buffer 8 bits 3 state Out
+K HC REG BUFFER
+$ENDCMP
+#
+$CMP 74HC373
+D 8 bits Latch, 3 state Out
+K HC REG LATCH
+$ENDCMP
+#
+$CMP 7805
+D Régulateur +5V, 7805
+K Régulateur, +5V, U
+$ENDCMP
+#
+$CMP 7812
+D Régulateur +12V, 7812
+K Régulateur, +12V, U
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP 7912
+D Régulateur -12V, 7912
+K Régulateur, -12V, U
+$ENDCMP
+#
+$CMP A3968
+D Double pont H
+K Pont H, Driver
+$ENDCMP
+#
+$CMP ARF7044
+D Module Bluetooth, ARF7044, ARF32, RS-232
+K Bluetooth, RS232
+$ENDCMP
+#
+$CMP BORNE
+D Borne, symbole général
+K Borne, J
+$ENDCMP
+#
+$CMP BSS138-N
+D BSS138, MOS à canal N, faible puissance
+K MOS, N, Low Power
+$ENDCMP
+#
+$CMP BSS84-P
+D BSS84, MOS à canal P, faible puissance
+K MOS, P, Low Power
+$ENDCMP
+#
+$CMP CAPA
+D Condensateur, symbole général
+K Condensateur, C
+$ENDCMP
+#
+$CMP CAPEL
+D Condensateur polarisé, symbole général
+K Condensateur polarisé, électrolytique, C
+$ENDCMP
+#
+$CMP COMMUT
+D Commutateur 3x1p, symbole général
+K Commutateur, Switch, SW
+$ENDCMP
+#
+$CMP CON1PBAT9V+
+D Connecteur pour batterie 9V, pôle +
+K Connecteur, Batterie
+$ENDCMP
+#
+$CMP CON1PBAT9V-
+D Connecteur pour batterie 9V, pôle -
+K Connecteur, Batterie
+$ENDCMP
+#
+$CMP CONN_10P
+D Symbole général de connecteur 10pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_12P
+D Symbole général de connecteur 12pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_1P
+D Symbole général de connecteur 1pôle
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_2P
+D Connecteur 2pôles, symbole général
+K Connecteur, J
+$ENDCMP
+#
+$CMP CONN_3P
+D Symbole général de connecteur 3pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_4P
+D Symbole général de connecteur 4pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_5P
+D Symbole général de connecteur 5pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_6P
+D Symbole général de connecteur 6pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_7P
+D Symbole général de connecteur 7pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_8P
+D Symbole général de connecteur 8pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_9P
+D Symbole général de connecteur 9pôles
+K Connecteur
+$ENDCMP
+#
+$CMP CONN_ICSP
+D Connecteur de programmation ICSP PicKit 2
+K Connecteur, ICSP
+$ENDCMP
+#
+$CMP CONTACT
+D Contact de travail
+K Contact
+$ENDCMP
+#
+$CMP CR2032
+D Pile et porte-pile CR2032
+K Pile bouton, CR2032
+$ENDCMP
+#
+$CMP DC/DC-5V10W-JCJ
+D Convertisseur DC-DC 5V10W-JCJ
+K Convertisseur DC-DC 5V
+$ENDCMP
+#
+$CMP DIODE
+D Diode, symbole général
+K Diode, D
+$ENDCMP
+#
+$CMP DS-DEM20487
+D Afficheur LCD DEM 20487 SBH-PW-N  20x4 caractères
+K Affichage, LCD
+$ENDCMP
+#
+$CMP DS-EADIPS082
+D Afficheur LCD EADIPS082 8x2 caractères
+K Affichage, LCD
+$ENDCMP
+#
+$CMP DS-HLMP1700
+D Led rouge 3mm low current
+K Led
+$ENDCMP
+#
+$CMP DS-HLMP4700
+D Led rouge 5mm low current
+K Led
+$ENDCMP
+#
+$CMP DS-HSMHC170
+D Led rouge SMD
+K Led
+$ENDCMP
+#
+$CMP DS-KXG1201B
+D Buzzer magnétique
+K Buzzer
+$ENDCMP
+#
+$CMP DS-PKM22
+D Buzzer piézo
+K Buzzer
+$ENDCMP
+#
+$CMP FICHE_230V
+D Fiche 230V châssis
+K Fiche, 230V, Boîtier
+$ENDCMP
+#
+$CMP FUSE
+D Fusible, symbole général
+K Fusible, F
+$ENDCMP
+#
+$CMP GRAETZ
+D Pont de Graetz, symbole général
+K Pont, Graetz, redresseur, D
+$ENDCMP
+#
+$CMP J-DC10A
+D Connecteur rond pour alimentation
+K Connecteur, Alimentation
+$ENDCMP
+#
+$CMP L293D
+D L293D, 2x pont H complet, entrées compatibles TTL, CMOS et uC
+K Pont H, Full Bridge
+$ENDCMP
+#
+$CMP L6202
+D L6202, Pont H complet, entrées compatibles TTL, CMOS et uC
+K Pont H, Full Bridge
+$ENDCMP
+#
+$CMP LED
+D Led, symbole général
+K Led, DS
+$ENDCMP
+#
+$CMP MCP6282
+D 2x Ampli opérationnel Rail to rail
+K AOP, Rail to rail
+$ENDCMP
+#
+$CMP MCP6284
+D 4x Ampli opérationnel Rail to rail
+K AOP, Rail to rail
+$ENDCMP
+#
+$CMP MERS4
+D Contact à bille cylindrique, MERS4
+K Tilt switch, MERS4, chocs
+$ENDCMP
+#
+$CMP MOS-N
+D Transistor MOS à canal N, symbole général
+K MOS, N, Q
+$ENDCMP
+#
+$CMP MOS-P
+D Transistor MOS à canal P, symbole général
+K MOS, P, Q
+$ENDCMP
+#
+$CMP NAVIMEC
+D Commande de navigation NAVIMEC
+K Joy-stick, Commande, Navigation
+$ENDCMP
+#
+$CMP NPN
+D Transistor NPN, symbole général
+K NPN, Transistor, Q
+$ENDCMP
+#
+$CMP PCA9036
+D Translateur de niveau, 3.3V - 5V
+K USB, I2C, Translateur, 3.3V,
+$ENDCMP
+#
+$CMP PHOTO_NPN
+D Photo-transistor NPN, symbole général
+K Photo, NPN, Transistor, Q
+$ENDCMP
+#
+$CMP PIC12F629
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur 12F629
+$ENDCMP
+#
+$CMP PIC16F627A
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur, PIC16F627A
+$ENDCMP
+#
+$CMP PIC16F628A
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur, PIC16F628A
+$ENDCMP
+#
+$CMP PIC16F648A
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur, PIC16F648A
+$ENDCMP
+#
+$CMP PIC16F690
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur 16F690
+$ENDCMP
+#
+$CMP PIC16F84A
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur, PIC16F84A
+$ENDCMP
+#
+$CMP PIC16F88
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur, PIC16F88
+$ENDCMP
+#
+$CMP PIC16F882
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur PIC16F882
+$ENDCMP
+#
+$CMP PIC16F887
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur PIC16F887
+$ENDCMP
+#
+$CMP PIC18F4550
+D Microcontrôleur PIC 8 bits Flash CMOS
+K Microcontrôleur PIC18F4550
+$ENDCMP
+#
+$CMP PNP
+D Transistor PNP, symbole général
+K PNP, Transistor, Q
+$ENDCMP
+#
+$CMP POUSSOIR
+D Poussoir, symbole général
+K Poussoir, Contact, Switch, SW, 1P1T, SPST
+$ENDCMP
+#
+$CMP R78B_5.0/1.5
+D Régulateur à découpage +5V, 1.5A
+K Régulateur à découpage, +5V, G
+$ENDCMP
+#
+$CMP REF3033
+D Régulateur +3.3V
+K POWER REGUL
+$ENDCMP
+#
+$CMP RELAIS_SPDT
+D Relais monostable 1pôle 2 positions
+K Relais SPDT
+$ENDCMP
+#
+$CMP RESCOM5
+D Résistances en barrette SIL
+K Résistance
+$ENDCMP
+#
+$CMP RESCOM8
+D Résistances en barrette SIL
+K Résistance
+$ENDCMP
+#
+$CMP RESCOM9
+D Résistances en barrette SIL
+K Résistance
+$ENDCMP
+#
+$CMP RESIST
+D Résistance, symbole général
+K Résistance, R
+$ENDCMP
+#
+$CMP RESONATEUR
+D Résonateur à 3 pattes
+K Résonateur
+$ENDCMP
+#
+$CMP RESPAR3
+D 3 résistances individuelles en barrette SIL
+$ENDCMP
+#
+$CMP RESPAR4
+D 4 résistances individuelles en barrette SIL
+$ENDCMP
+#
+$CMP S-FSM4J
+D Poussoir Reset
+K Poussoir mini
+$ENDCMP
+#
+$CMP S-JB15FB
+D Touche bleue pour print
+K Touche
+$ENDCMP
+#
+$CMP SP3232E
+D Convertisseur logique-RS232
+K RS232 Interface
+$ENDCMP
+#
+$CMP ST232CN
+D Convertisseur logique-RS232
+K RS232 Interface
+$ENDCMP
+#
+$CMP SW-SGA22NP
+D Commutateur 2x3 pôles
+K Commutateur
+$ENDCMP
+#
+$CMP TLP281-4
+D 4x Optocoupleur Sortie à transistor
+K Optocoupleur
+$ENDCMP
+#
+$CMP TRANSFO_2S
+D Transformateur 1P/2S
+K Transfo, 1P/2S, T
+$ENDCMP
+#
+$CMP TRIMMER
+D Résistance ajustable, Trimmer
+K Trimmer, Potentiomètre, Résistance, P
+$ENDCMP
+#
+$CMP ZENER
+D Diode Zéner, symbole général
+K Diode, Zéner, Z
+$ENDCMP
+#
+#End Doc Library
