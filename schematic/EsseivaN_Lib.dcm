@@ -78,12 +78,6 @@ $CMP Ground
 K POWER, PWR
 $ENDCMP
 #
-$CMP MCP2210
-D USB Bridge, USB to SPI USB 2.0 SPI Interface 20-SSOP
-K usb bridge spi
-F https://www.digikey.ch/product-detail/en/microchip-technology/MCP2210-I-SS/MCP2210-I-SS-ND/2835087
-$ENDCMP
-#
 $CMP MCP6001R
 D Op Amp in 5-pin package
 K op amp amplifier operational
