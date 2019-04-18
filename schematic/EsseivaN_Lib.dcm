@@ -30,6 +30,11 @@ D Connector, single row, 01x06
 K connector
 $ENDCMP
 #
+$CMP CONN_01X07
+D Connector, single row, 01x08
+K connector
+$ENDCMP
+#
 $CMP CONN_01X08
 D Connector, single row, 01x08
 K connector
@@ -76,6 +81,12 @@ $ENDCMP
 #
 $CMP Ground
 K POWER, PWR
+$ENDCMP
+#
+$CMP INDUCTOR
+D Capacitor symbol for simulation only
+K simulation
+F ~
 $ENDCMP
 #
 $CMP MCP6001R
