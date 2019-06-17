@@ -1,4 +1,4 @@
-(module CH_05P (layer F.Cu) (tedit 5CC57A01)
+(module CH_05P (layer F.Cu) (tedit 5CF22EFE)
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -16,4 +16,9 @@
   (pad 3 connect rect (at 2.5 -0.4) (size 0.6 2.5) (layers F.Cu F.Mask))
   (pad 4 connect rect (at 3.75 -0.4) (size 0.6 2.5) (layers F.Cu F.Mask))
   (pad 5 connect rect (at 5 -0.4) (size 0.6 2.5) (layers F.Cu F.Mask))
+  (model "C:/WorkSpace/Autodesk/cad files/BM05B-GHS-TBT.STEP"
+    (offset (xyz -2.25 -3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )

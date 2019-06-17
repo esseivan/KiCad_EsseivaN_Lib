@@ -95,6 +95,14 @@ K op amp amplifier operational
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
+$CMP MCP9700
+K MCP9701
+$ENDCMP
+#
+$CMP PIC16F15323
+K PIC16LF15323 15323 16f15323
+$ENDCMP
+#
 $CMP PIC18F26K40T
 D PIC PIC® XLP™ 18K Microcontroller IC 8-Bit 64MHz 64KB (32K x 16) FLASH 28-SSOP
 F https://www.digikey.ch/product-detail/en/microchip-technology/PIC18F26K40T-I-SS/PIC18F26K40T-I-SSCT-ND/7563890
