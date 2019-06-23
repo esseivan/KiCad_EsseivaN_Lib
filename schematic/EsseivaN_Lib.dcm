@@ -40,6 +40,29 @@ D Connector, single row, 01x08
 K connector
 $ENDCMP
 #
+$CMP CONN_01X09
+D Connector, single row, 01x09
+K connector
+$ENDCMP
+#
+$CMP Conn_01x12
+D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x13
+D Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x14
+D Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Connecteur_02X04
 D Connector, 02x04
 K connector
@@ -60,6 +83,16 @@ $CMP D_Schottky
 D Schottky diode
 K diode Schottky
 F ~
+$ENDCMP
+#
+$CMP Extension_1
+D Connector, single row, 01x09
+K connector
+$ENDCMP
+#
+$CMP Extension_2
+D Connector, single row, 01x09
+K connector
 $ENDCMP
 #
 $CMP Fuse
