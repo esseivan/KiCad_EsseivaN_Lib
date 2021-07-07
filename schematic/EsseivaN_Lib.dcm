@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP CONN_01X01
-D Connector, single row, 01x06
+D Connector, single row, 01x01
 K connector
 $ENDCMP
 #
@@ -11,17 +11,17 @@ K connector
 $ENDCMP
 #
 $CMP CONN_01X03
-D Connector, single row, 01x06
+D Connector, single row, 01x03
 K connector
 $ENDCMP
 #
 $CMP CONN_01X04
-D Connector, single row, 01x06
+D Connector, single row, 01x04
 K connector
 $ENDCMP
 #
 $CMP CONN_01X05
-D Connector, single row, 01x06
+D Connector, single row, 01x05
 K connector
 $ENDCMP
 #
@@ -31,7 +31,7 @@ K connector
 $ENDCMP
 #
 $CMP CONN_01X07
-D Connector, single row, 01x08
+D Connector, single row, 01x07
 K connector
 $ENDCMP
 #
@@ -43,24 +43,6 @@ $ENDCMP
 $CMP CONN_01X09
 D Connector, single row, 01x09
 K connector
-$ENDCMP
-#
-$CMP Conn_01x12
-D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP Conn_01x13
-D Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP Conn_01x14
-D Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
 $ENDCMP
 #
 $CMP Conn_02x08_Odd_Even
@@ -136,6 +118,36 @@ $ENDCMP
 #
 $CMP MCP9700
 K MCP9701
+$ENDCMP
+#
+$CMP MicroMatch_10P_Female
+D Connector, 10, female
+K Connector, 10, female
+$ENDCMP
+#
+$CMP MicroMatch_10P_Male
+D Connector, 10, female
+K Connector, 10, female
+$ENDCMP
+#
+$CMP MicroMatch_4P_Female
+D Connector, 4, female
+K Connector, 4, female
+$ENDCMP
+#
+$CMP MicroMatch_4P_Male
+D Connector, 4, male
+K Connector, 4, male
+$ENDCMP
+#
+$CMP MicroMatch_6P_Female
+D Connector, 6, female
+K Connector, 6, female
+$ENDCMP
+#
+$CMP MicroMatch_6P_Male
+D Connector, 6, male
+K Connector, 6, male
 $ENDCMP
 #
 $CMP PIC16F15323
