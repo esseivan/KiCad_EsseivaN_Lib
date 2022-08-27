@@ -49,17 +49,17 @@
   (pad "2" thru_hole oval (at 1.75 2.54) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp 31235864-20b0-4ba2-b387-c99efefca8f4))
   (pad "2" thru_hole oval (at 9.37 0) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp b7cc8c2d-4db3-4f0e-a051-a4350b2b8564))
   (pad "2" thru_hole oval (at 1.75 -2.54) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp fe750043-f2d3-4f3b-98d5-cbc611294ac4))
-  (model "C:/Workspace/cloud/08_CAD_outputs/Keystone_-_54.step"
+  (model "C:/Workspace/03_CAD_Output/Keystone_-_54.step"
     (offset (xyz -47.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "C:/Workspace/cloud/08_CAD_outputs/Keystone_-_54.step"
+  (model "C:/Workspace/03_CAD_Output/Keystone_-_54.step"
     (offset (xyz 7.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "C:/Workspace/cloud/08_CAD_outputs/Battery18650_18x69.stp"
+  (model "C:/Workspace/03_CAD_Output/Battery18650_18x69.stp"
     (offset (xyz -19.5 0 10.25))
     (scale (xyz 1 1 0.9))
     (rotate (xyz 0 90 0))

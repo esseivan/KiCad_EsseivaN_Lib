@@ -24,11 +24,28 @@
   (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp 7c9750b1-41ff-4bba-a611-82cfc4e49440))
   (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp bfbad6ed-9bbd-4a1a-bdfe-ee50245a621a))
   (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp c27546ee-1d07-4d96-bdd5-078fe9468528))
-  (pad "1" smd trapezoid (at -0.1 0) (size 0.7 0.725) (rect_delta 0.725 0) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 06e8ef51-ea3a-47be-8c16-2a3ae2b96b5d))
-  (pad "1" smd rect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 26b8f07a-78fd-4334-a627-c22ac9be221b))
-  (pad "2" smd rect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5c952ec8-c980-4a94-a972-30f730128869))
-  (pad "2" smd trapezoid (at 0.45 0.3625 90) (size 0.725 0.7) (rect_delta 0.7 0) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8e6d5351-0f0c-4f96-998d-94eaa9e6d44d))
-  (pad "2" smd trapezoid (at 0.45 -0.3625 270) (size 0.725 0.7) (rect_delta 0.7 0) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d6f92459-0620-42f2-9bf6-d067149d323e))
+  (pad "1" smd custom (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy -1.2875 0)
+          (xy -0.5875 -0.725)
+          (xy 0 -0.725)
+          (xy 0 0.725)
+          (xy -0.5875 0.725)
+        ) (width 0) (fill yes))
+    ) (tstamp 26b8f07a-78fd-4334-a627-c22ac9be221b))
+  (pad "2" smd custom (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy 0 -0.725)
+          (xy 1.2875 -0.725)
+          (xy 0.5875 0)
+          (xy 1.2875 0.725)
+          (xy 0 0.725)
+        ) (width 0) (fill yes))
+    ) (tstamp 5c952ec8-c980-4a94-a972-30f730128869))
   (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

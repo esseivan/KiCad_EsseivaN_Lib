@@ -12,6 +12,10 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d88ab9de-ed3d-493e-969a-2da74cb1b4ca)
   )
+  (fp_text user "1" (at 4 0 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c21a901f-dd3e-474b-8a8c-746461632cda)
+  )
   (fp_text user "${REFERENCE}" (at 0 6.35 90) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b1c32cdf-92eb-41f7-8331-96301da320e1)
@@ -38,7 +42,7 @@
   (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 45663f3f-37fe-4641-b45d-53bc10348c8f))
   (pad "5" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 150249d7-77b2-4796-82a2-1ef1d2a02ea6))
   (pad "6" thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 0ace2d77-f8bb-49c7-a6cb-3a5f6c0a88f5))
-  (model "C:/Workspace/cloud/08_CAD_outputs/imports/022232061.stp"
+  (model "C:/Workspace/03_CAD_Output/imports/022232061.stp"
     (offset (xyz 0 -6.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
