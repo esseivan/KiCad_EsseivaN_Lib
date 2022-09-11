@@ -284,7 +284,7 @@
     (property "Footprint" "" (id 2) (at 0 0 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20001906D.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Voltage" "3.08V" (id 4) (at 0 3.81 0)
@@ -362,11 +362,11 @@
       )
     )
   )
-  (symbol "SI2323DS-T1-E3" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "SI2323DS" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "T" (id 0) (at 0 4.445 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "SI2323DS-T1-E3" (id 1) (at 0 6.985 0)
+    (property "Value" "SI2323DS" (id 1) (at 0 6.985 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering" (id 2) (at 0 -0.635 0)
@@ -375,7 +375,7 @@
     (property "Datasheet" "" (id 3) (at 0 -0.635 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (symbol "SI2323DS-T1-E3_0_1"
+    (symbol "SI2323DS_0_1"
       (circle (center -2.54 0) (radius 0.254)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
@@ -496,7 +496,7 @@
         (fill (type outline))
       )
     )
-    (symbol "SI2323DS-T1-E3_1_1"
+    (symbol "SI2323DS_1_1"
       (pin passive line (at 2.54 -5.08 90) (length 1.905)
         (name "G" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
