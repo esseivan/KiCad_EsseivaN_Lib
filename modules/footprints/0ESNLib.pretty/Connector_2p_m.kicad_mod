@@ -35,8 +35,8 @@
   (fp_line (start 3.5 -1.5) (end 3.5 4.09) (layer "F.Fab") (width 0.1) (tstamp d373e5cc-1989-4cbe-8ed5-1282e719d32e))
   (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 737259a0-42dc-44f5-8c24-77e2cbd419d0))
   (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 08ee74eb-0ee8-4c4a-9831-5bf6e6db5e09))
-  (model "C:/Workspace/03_CAD_Output/imports/022232061.stp"
-    (offset (xyz 0 -6.35 0))
+  (model "C:/Workspace/03_CAD_Output/imports/Connecteurs/Molex/022232021.stp"
+    (offset (xyz 0 -1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )

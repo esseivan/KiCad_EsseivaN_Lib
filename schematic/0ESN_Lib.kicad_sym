@@ -649,7 +649,7 @@
     (property "Footprint" "0ESN_Lib:PowerPAK 1212-8S" (id 2) (at 0 -0.635 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/72023/72023.pdf" (id 3) (at 0 -0.635 0)
+    (property "Datasheet" "https://www.vishay.com/docs/79563/sish615adn.pdf" (id 3) (at 0 -0.635 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (symbol "SISH615ADN_0_1"
