@@ -2077,7 +2077,7 @@
         (name "VPP" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 7.62 6.35 180) (length 2.54)
+      (pin passive line (at 7.62 6.35 180) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
