@@ -46,9 +46,9 @@
   (pad "1" thru_hole circle (at -43 -2.54) (size 3.048 3.048) (drill 1.905) (layers *.Cu *.Mask) (tstamp 97e30ec1-3e78-4da8-be75-38f6ff0f30ba))
   (pad "1" thru_hole circle (at -50.62 0) (size 3.048 3.048) (drill 1.905) (layers *.Cu *.Mask) (tstamp d491540d-b83e-4c16-98a7-c8490a1d1164))
   (pad "1" thru_hole circle (at -43 2.54) (size 3.048 3.048) (drill 1.905) (layers *.Cu *.Mask) (tstamp f9b37b53-8cb1-4736-8ecf-6d0a8b0264ce))
-  (pad "2" thru_hole oval (at 1.75 2.54) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp 31235864-20b0-4ba2-b387-c99efefca8f4))
-  (pad "2" thru_hole oval (at 9.37 0) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp b7cc8c2d-4db3-4f0e-a051-a4350b2b8564))
-  (pad "2" thru_hole oval (at 1.75 -2.54) (size 6.548 3.048) (drill oval 4.262 1.905) (layers *.Cu *.Mask) (tstamp fe750043-f2d3-4f3b-98d5-cbc611294ac4))
+  (pad "2" thru_hole oval (at 2.119 2.54) (size 7.286 3.048) (drill oval 5 1.905) (layers *.Cu *.Mask) (tstamp 31235864-20b0-4ba2-b387-c99efefca8f4))
+  (pad "2" thru_hole oval (at 9.739 0) (size 7.286 3.048) (drill oval 5 1.905) (layers *.Cu *.Mask) (tstamp b7cc8c2d-4db3-4f0e-a051-a4350b2b8564))
+  (pad "2" thru_hole oval (at 2.119 -2.54) (size 7.286 3.048) (drill oval 5 1.905) (layers *.Cu *.Mask) (tstamp fe750043-f2d3-4f3b-98d5-cbc611294ac4))
   (model "C:/Workspace/03_CAD_Output/Keystone_-_54.step"
     (offset (xyz -47.5 0 0))
     (scale (xyz 1 1 1))
